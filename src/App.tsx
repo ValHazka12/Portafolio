@@ -22,7 +22,7 @@ function App() {
       {/* Navigation */}
       <nav className="fixed left-0 top-0 h-screen w-15 md:w-35 bg-white/10 backdrop-blur-sm border-r border-gray-200 dark:border-gray-900 flex flex-col items-center py-8 space-y-8">
         <div className="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center text-white font-bold">
-          <a href="https://www.xbox.com/es-MX/play/user/SunburtScarf">
+          <a href="https://www.xbox.com/es-MX/play/user/SunburtScarf" target="_blank" rel="noopener noreferrer">
           FM
         </div>
         

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, Moon, Sun, Code2, MonitorSmartphone, Database, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, Moon, Sun, Code2, MonitorSmartphone, Database } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -76,7 +76,7 @@ function App() {
             </div>
             <div className="shrink-0">
               <img 
-                src="https://i.ibb.co/60WS3zTn/Perfil.jpg" 
+                src="https://i.ibb.co/mmvMVnh/Imagen-de-Whats-App-2025-03-19-a-las-18-54-58-d65d7921.jpg" 
                 alt="Profile" 
                 className="w-64 h-64 object-cover rounded-2xl border-4 border-indigo-600 shadow-xl shadow-indigo-600/20"
               />
@@ -116,58 +116,49 @@ function App() {
         <section id="projects" className="min-h-screen py-20">
           <h2 className="text-4xl font-bold mb-12">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors">
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Recipe Blog</h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  A platform for sharing and discovering delicious recipes.
-                </p>
-                <a 
-                  href="https://log-con-recetas-fgm-83.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-indigo-500 hover:text-indigo-400 transition-colors"
-                >
-                  Visit Site <ExternalLink size={16} className="ml-1" />
-                </a>
-              </div>
-              <div className="absolute inset-0 bg-indigo-600/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors p-6">
+              <h3 className="text-xl font-bold mb-2">Recipe Blog</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                A platform for sharing and discovering delicious recipes.
+              </p>
+              <a 
+                href="https://log-con-recetas-fgm-83.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+              >
+                View Project
+              </a>
             </div>
 
-            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors">
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Chat IBM</h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  An intelligent chatbot powered by IBM technology.
-                </p>
-                <a 
-                  href="https://chatibmpage.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-indigo-500 hover:text-indigo-400 transition-colors"
-                >
-                  Visit Site <ExternalLink size={16} className="ml-1" />
-                </a>
-              </div>
-              <div className="absolute inset-0 bg-indigo-600/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors p-6">
+              <h3 className="text-xl font-bold mb-2">Chat IBM</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                An intelligent chatbot powered by IBM technology.
+              </p>
+              <a 
+                href="https://chatibmpage.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+              >
+                View Project
+              </a>
             </div>
 
-            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors">
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">System Monitor</h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Real-time system monitoring and analytics dashboard.
-                </p>
-                <a 
-                  href="https://monitor-ashen.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-indigo-500 hover:text-indigo-400 transition-colors"
-                >
-                  Visit Site <ExternalLink size={16} className="ml-1" />
-                </a>
-              </div>
-              <div className="absolute inset-0 bg-indigo-600/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors p-6">
+              <h3 className="text-xl font-bold mb-2">System Monitor</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Real-time system monitoring and analytics dashboard.
+              </p>
+              <a 
+                href="https://monitor-ashen.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+              >
+                View Project
+              </a>
             </div>
           </div>
         </section>

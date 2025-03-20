@@ -76,7 +76,7 @@ function App() {
             </div>
             <div className="shrink-0">
               <img 
-                src="https://ibb.co/chr9G0Zg" 
+                src="https://i.ibb.co/60WS3zTn/Perfil.jpg" 
                 alt="Profile" 
                 className="w-64 h-64 object-cover rounded-2xl border-4 border-indigo-600 shadow-xl shadow-indigo-600/20"
               />
@@ -99,14 +99,14 @@ function App() {
               <Database className="w-12 h-12 text-indigo-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Backend Development</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Node.js, MYSQL, PostgreSQL, MongoDB
+                Node.js, Express, PostgreSQL, MongoDB
               </p>
             </div>
             <div className="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800">
               <MonitorSmartphone className="w-12 h-12 text-indigo-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Responsive Design</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Mobile-First, F Cross-Browser Compatibility
+                Mobile-First, UI/UX, Cross-Browser Compatibility
               </p>
             </div>
           </div>
@@ -123,7 +123,7 @@ function App() {
                   A platform for sharing and discovering delicious recipes.
                 </p>
                 <a 
-                  href="https://log-con-recetas-fgm-83.vercel.app/"
+                  href="https://log-con-recetas-fgm-83.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-indigo-500 hover:text-indigo-400 transition-colors"
@@ -141,7 +141,7 @@ function App() {
                   An intelligent chatbot powered by IBM technology.
                 </p>
                 <a 
-                  href="https://chatibmpage.vercel.app/"
+                  href="https://chatibmpage.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-indigo-500 hover:text-indigo-400 transition-colors"
@@ -159,7 +159,7 @@ function App() {
                   Real-time system monitoring and analytics dashboard.
                 </p>
                 <a 
-                  href="https://monitor-ashen.vercel.app/"
+                  href="https://monitor-ashen.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-indigo-500 hover:text-indigo-400 transition-colors"
@@ -174,7 +174,7 @@ function App() {
 
         {/* Contact Section */}
         <section id="contact" className="min-h-screen py-20">
-          <h2 className="text-4xl font-bold mb-12">Dale un toque</h2>
+          <h2 className="text-4xl font-bold mb-12">Get in Touch</h2>
           <div className="max-w-2xl">
             <div className="flex items-center space-x-4 mb-6">
               <Mail className="w-6 h-6 text-indigo-600" />

@@ -75,11 +75,11 @@ function App() {
               </a>
             </div>
             <div className="shrink-0">
-            <img 
-              src="https://ibb.co/chr9G0Zg" 
-              alt="Profile" 
-              className="w-64 h-64 object-cover rounded-2xl border-4 border-indigo-600 shadow-xl shadow-indigo-600/20"
-            />
+              <img 
+                src="https://ibb.co/chr9G0Zg" 
+                alt="Profile" 
+                className="w-64 h-64 object-cover rounded-2xl border-4 border-indigo-600 shadow-xl shadow-indigo-600/20"
+              />
             </div>
           </div>
         </section>

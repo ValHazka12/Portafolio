@@ -173,7 +173,7 @@ function App() {
           <div className="max-w-2xl">
             <div className="flex items-center space-x-4 mb-6">
               <Mail className="w-6 h-6 text-indigo-600" />
-              <a href="mailto:contact@example.com" className="hover:text-indigo-600 transition-colors">
+              <a href="al222210570@gmail.com" className="hover:text-indigo-600 transition-colors">
                 al222210570@gmail.com
               </a>
             </div>

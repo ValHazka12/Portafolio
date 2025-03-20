@@ -174,12 +174,12 @@ function App() {
 
         {/* Contact Section */}
         <section id="contact" className="min-h-screen py-20">
-          <h2 className="text-4xl font-bold mb-12">Get in Touch</h2>
+          <h2 className="text-4xl font-bold mb-12">Dale un toque</h2>
           <div className="max-w-2xl">
             <div className="flex items-center space-x-4 mb-6">
               <Mail className="w-6 h-6 text-indigo-600" />
               <a href="mailto:contact@example.com" className="hover:text-indigo-600 transition-colors">
-                contact@example.com
+                al222210570@gmail.com
               </a>
             </div>
             <form className="space-y-6">

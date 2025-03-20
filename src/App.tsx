@@ -76,7 +76,7 @@ function App() {
             </div>
             <div className="shrink-0">
             <img 
-              src="/Perfil.jpg" 
+              src="https://ibb.co/chr9G0Zg" 
               alt="Profile" 
               className="w-64 h-64 object-cover rounded-2xl border-4 border-indigo-600 shadow-xl shadow-indigo-600/20"
             />
@@ -99,14 +99,14 @@ function App() {
               <Database className="w-12 h-12 text-indigo-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Backend Development</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Node.js, Express, PostgreSQL, MongoDB
+                Node.js, MYSQL, PostgreSQL, MongoDB
               </p>
             </div>
             <div className="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800">
               <MonitorSmartphone className="w-12 h-12 text-indigo-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Responsive Design</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Mobile-First, UI/UX, Cross-Browser Compatibility
+                Mobile-First, F Cross-Browser Compatibility
               </p>
             </div>
           </div>

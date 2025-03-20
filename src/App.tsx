@@ -3,18 +3,18 @@ import { Github, Linkedin, Twitter, Mail, Moon, Sun, Code2, MonitorSmartphone, D
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [tema, setTema] = useState('oscuro');
+  const [tema, setTema] = useState('dark');
 
   useEffect(() => {
-    if (tema === 'oscuro') {
-      document.documentElement.classList.add('oscuro');
+    if (tema === 'dark') {
+      document.documentElement.classList.add('dark');
     } else {
-      document.documentElement.classList.remove('oscuro');
+      document.documentElement.classList.remove('dark');
     }
   }, [tema]);
 
   const alternarTema = () => {
-    setTema(tema === 'oscuro' ? 'claro' : 'oscuro');
+    setTema(tema === 'dark' ? 'ligth' : 'dark');
   };
 
   return (
@@ -49,7 +49,7 @@ function App() {
           onClick={alternarTema}
           className="p-2 rounded-xl hover:bg-white/20 transition-colors"
         >
-          {tema === 'oscuro' ? <Sun size={24} /> : <Moon size={24} />}
+          {tema === 'dark' ? <Sun size={24} /> : <Moon size={24} />}
         </button>
       </nav>
 

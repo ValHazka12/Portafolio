@@ -26,11 +26,11 @@ function App() {
         </div>
         
         <div className="flex-1 flex flex-col space-y-4">
-          <a href="#home" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Home</a>
-          <a href="#about" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Sobre mi</a>
-          <a href="#skills" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Habilidades</a>
-          <a href="#projects" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Proyectos</a>
-          <a href="#contact" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Contacto</a>
+          <a href="#Home" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Home</a>
+          <a href="#Sobre mi" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Sobre mi</a>
+          <a href="#Habilidades" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Habilidades</a>
+          <a href="#Proyectos" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Proyectos</a>
+          <a href="#Contacto" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Contacto</a>
         </div>
 
         <div className="flex flex-col space-y-4">

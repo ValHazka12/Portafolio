@@ -85,6 +85,31 @@ function App() {
           </div>
         </section>
 
+        {/* Sección de mi */}
+        <section id="about" className="min-h-screen py-20">
+           <h2 className="text-4xl font-bold mb-12">Acerca de Mi</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors p-6">
+              <h3 className="text-xl font-bold mb-2">Educación</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Universidad Tecnologica del Valle de Toluca
+              </p>
+            </div>
+            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors p-6">
+              <h3 className="text-xl font-bold mb-2">Certificados</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                CCNAv7 Switching, Routing / CCNAv7: Enterprise Networking, 
+                IBM Cloud Computing Essentials / NDG Linux 
+              </p>
+            </div> 
+            <div className="group relative bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:border-indigo-500 transition-colors p-6">
+                <h3 className="text-xl font-bold mb-2">Hobbies</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                F1, Literarura, Videojuegos, Musica, Hacking ethical
+              </p>
+            </div> 
+          </div>
+         </section>  
         {/* Sección Habilidades */}
         <section id="skills" className="min-h-screen py-20">
           <h2 className="text-4xl font-bold mb-12">Habilidades y Experiencia</h2>

@@ -57,7 +57,7 @@ function App() {
       {/* Contenido Principal */}
       <main className="ml-16 md:ml-20 p-8">
         {/* Sección Hero */}
-        <section id="inicio" className="min-h-screen flex items-center">
+        <section id="home" className="min-h-screen flex items-center">
           <div className="max-w-4xl flex flex-col md:flex-row items-center gap-12">
             <div>
               <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -86,7 +86,7 @@ function App() {
         </section>
 
         {/* Sección Habilidades */}
-        <section id="habilidades" className="min-h-screen py-20">
+        <section id="Skills" className="min-h-screen py-20">
           <h2 className="text-4xl font-bold mb-12">Habilidades y Experiencia</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800">

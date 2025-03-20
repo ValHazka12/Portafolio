@@ -3,18 +3,18 @@ import { Github, Linkedin, Twitter, Mail, Moon, Sun, Code2, MonitorSmartphone, D
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [tema, setTema] = useState('dark');
+  const [tema, setTema] = useState('oscuro');
 
   useEffect(() => {
-    if (tema === 'dark') {
-      document.documentElement.classList.add('dark');
+    if (tema === 'oscuro') {
+      document.documentElement.classList.add('oscuro');
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove('oscuro');
     }
   }, [tema]);
 
-  const cambiarTema = () => {
-    setTema(tema === 'dark' ? 'light' : 'dark');
+  const alternarTema = () => {
+    setTema(tema === 'oscuro' ? 'claro' : 'oscuro');
   };
 
   return (
@@ -27,14 +27,14 @@ function App() {
         
         <div className="flex-1 flex flex-col space-y-4">
           <a href="#inicio" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Inicio</a>
-          <a href="#yo" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Yo</a>
+          <a href="#acerca" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Acerca</a>
           <a href="#habilidades" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Habilidades</a>
           <a href="#proyectos" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Proyectos</a>
           <a href="#contacto" className="p-3 rounded-xl hover:bg-white/20 transition-colors">Contacto</a>
         </div>
 
         <div className="flex flex-col space-y-4">
-          <a href="https://github.com/ValHazka12" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
             <Github size={24} />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
@@ -46,10 +46,10 @@ function App() {
         </div>
 
         <button
-          onClick={cambiarTema}
+          onClick={alternarTema}
           className="p-2 rounded-xl hover:bg-white/20 transition-colors"
         >
-          {tema === 'dark' ? <Sun size={24} /> : <Moon size={24} />}
+          {tema === 'oscuro' ? <Sun size={24} /> : <Moon size={24} />}
         </button>
       </nav>
 
@@ -60,12 +60,12 @@ function App() {
           <div className="max-w-4xl flex flex-col md:flex-row items-center gap-12">
             <div>
               <h1 className="text-5xl md:text-7xl font-bold mb-6">
-                Hola! Soy Fernando Mendoza,
+                ¡Hola! Soy Fernando Mendoza,
                 <br />
                 <span className="text-indigo-600 dark:text-indigo-400">Desarrollador Web</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-                Desarrollador de Software / Hacker en progreso
+                Desarrollador Full Stack / Desarrollador de Software
               </p>
               <a
                 href="#contacto"
@@ -84,7 +84,7 @@ function App() {
           </div>
         </section>
 
-        {/* Sección de Habilidades */}
+        {/* Sección Habilidades */}
         <section id="habilidades" className="min-h-screen py-20">
           <h2 className="text-4xl font-bold mb-12">Habilidades y Experiencia</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -104,15 +104,15 @@ function App() {
             </div>
             <div className="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800">
               <MonitorSmartphone className="w-12 h-12 text-indigo-600 mb-4" />
-              <h3 className="text-xl font-bold mb-2">Diseño Responsive</h3>
+              <h3 className="text-xl font-bold mb-2">Diseño Responsivo</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Mobile-First, UI/UX, Compatibilidad entre navegadores
+                Mobile-First, UI/UX, Compatibilidad entre Navegadores
               </p>
             </div>
           </div>
         </section>
 
-        {/* Otras secciones como Proyectos y Contacto están adaptadas al español también. */}
+        {/* Continúa con las demás secciones traducidas */}
       </main>
     </div>
   );

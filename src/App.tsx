@@ -86,7 +86,7 @@ function App() {
         </section>
 
         {/* Sección Habilidades */}
-        <section id="Skills" className="min-h-screen py-20">
+        <section id="skills" className="min-h-screen py-20">
           <h2 className="text-4xl font-bold mb-12">Habilidades y Experiencia</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-800">
